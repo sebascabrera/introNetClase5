@@ -1,7 +1,7 @@
 ﻿
     string respuesta = "S";
 
-while(respuesta.ToUpper() != "N")
+while(respuesta.ToUpper() == "S")
     {
     Console.Write("Ingrese su nombre: ");
     string nombre = (Console.ReadLine());
@@ -13,3 +13,14 @@ while(respuesta.ToUpper() != "N")
     respuesta = (Console.ReadLine());
     
 }
+
+if (respuesta.ToUpper() == "N")
+{
+    Console.Write("Programa finalizado correctamente");
+}
+else
+{
+    Console.Write("Opcion no valida");
+}
+
+
