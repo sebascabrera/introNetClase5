@@ -1,9 +1,10 @@
 ﻿
-Console.Clear();   
+ 
 string respuesta = "S";
 
 while(respuesta.ToUpper() == "S")
     {
+    Console.Clear(); 
     Console.Write("Ingrese su nombre: ");
     string nombre = (Console.ReadLine());
 
