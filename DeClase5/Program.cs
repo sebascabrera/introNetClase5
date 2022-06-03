@@ -1,12 +1,13 @@
 ﻿
-    string respuesta = "S";
+Console.Clear();   
+string respuesta = "S";
 
 while(respuesta.ToUpper() == "S")
     {
     Console.Write("Ingrese su nombre: ");
     string nombre = (Console.ReadLine());
 
-    Console.Write($"Hola {nombre} \n");
+    Console.Write($"¡Hola {nombre}! \n");
 
 
     Console.WriteLine("Desea continuar? S/N");
